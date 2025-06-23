@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chúc mừng sinh nhật 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="password-screen">
+    <h2>🔐 Vui lòng nhập mật khẩu để xem nội dung</h2>
+    <input type="password" id="password" placeholder="Nhập mật khẩu...">
+    <button onclick="checkPassword()">Vào</button>
+    <p id="message"></p>
+  </div>
+
+  <div id="birthday-content" style="display: none;">
+    <h1>🎉 Chúc mừng sinh nhật!</h1>
+    <img src="assets/image.jpg" alt="Happy Birthday" width="300">
+    <audio controls autoplay loop>
+      <source src="assets/bg.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

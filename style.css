@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: sans-serif;
+  padding-top: 100px;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+h1 {
+  font-size: 3em;
+  color: #ff4081;
+}
